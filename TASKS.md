@@ -38,7 +38,7 @@ ROS 2 + Python 機器人開發基礎的學習任務，依執行順序排列。
 
 ## Phase 1：ROS 2 核心概念（約 2–3 週）
 
-- [ ] **P1-T1 環境建置**
+- [x] **P1-T1 環境建置**
   - 內容：啟動 Docker 容器，於 noVNC 桌面執行 turtlesim 與 teleop。
   - 驗收：可用鍵盤控制烏龜。
 - [ ] **P1-T2 Beginner: CLI tools（官方教學）**
@@ -110,4 +110,4 @@ ROS 2 + Python 機器人開發基礎的學習任務，依執行順序排列。
 
 | 日期 | 任務 | 備註 |
 |---|---|---|
-|  |  |  |
+| 2026-10-08 | P1-T1 | 容器與 noVNC 可用，turtlesim 可用鍵盤控制；筆記見 `notes/p1-t1-environment-setup.md` |

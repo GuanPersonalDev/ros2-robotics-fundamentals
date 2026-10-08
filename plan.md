@@ -61,7 +61,7 @@ services:
 ```bash
 docker compose up -d                 # 啟動
 docker compose down                  # 停止
-docker exec -it ros2_jazzy bash      # 從主機進入容器終端機
+docker exec -it -u ubuntu ros2_jazzy bash   # 從主機進入容器終端機（不加 -u ubuntu 會是 root）
 
 cd ~/ros2_ws
 colcon build --symlink-install       # Python 套件修改後免重新 build（新增檔案或改 setup.py 時仍需 build）
