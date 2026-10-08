@@ -20,7 +20,7 @@ ROS 2 + Python 機器人開發基礎的學習任務，依執行順序排列。
 
 不需要 ROS，只需 Python + NumPy + matplotlib。程式放在 `phase0_math/`。
 
-- [ ] **P0-T1 齊次轉換矩陣**
+- [x] **P0-T1 齊次轉換矩陣**
   - 內容：實作 2D / 3D 旋轉矩陣與 4x4 齊次轉換矩陣的建構函式。
   - 驗收：以 pytest 驗證 `T_ab @ T_bc == T_ac`、`T @ inv(T) == I`。
 - [ ] **P0-T2 兩軸平面手臂正向運動學（FK）**
@@ -111,3 +111,4 @@ ROS 2 + Python 機器人開發基礎的學習任務，依執行順序排列。
 | 日期 | 任務 | 備註 |
 |---|---|---|
 | 2026-10-08 | P1-T1 | 容器與 noVNC 可用，turtlesim 可用鍵盤控制；筆記見 `notes/p1-t1-environment-setup.md` |
+| 2026-10-08 | P0-T1 | 旋轉矩陣與 4x4 齊次轉換完成，pytest 19 個測試通過；筆記見 `notes/p0-t1-homogeneous-transforms.md` |
