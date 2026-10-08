@@ -1,0 +1,12 @@
+services:
+  ros2:
+    image: tiryoh/ros2-desktop-vnc:jazzy
+    container_name: ros2_jazzy
+    ports:
+      - "6080:80"
+    shm_size: 512m
+    security_opt:
+      - seccomp:unconfined
+    volumes:
+      - ./ros2_ws/src:/home/ubuntu/ros2_ws/src
+    restart: unless-stopped
