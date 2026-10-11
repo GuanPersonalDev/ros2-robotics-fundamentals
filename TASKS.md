@@ -26,7 +26,7 @@ ROS 2 + Python 機器人開發基礎的學習任務，依執行順序排列。
 - [x] **P0-T2 兩軸平面手臂正向運動學（FK）**
   - 內容：輸入兩關節角與連桿長度，輸出末端座標。
   - 驗收：數個已知角度（0、π/2、π）的手算結果與程式一致。
-- [ ] **P0-T3 兩軸手臂逆向運動學（IK，解析解）**
+- [x] **P0-T3 兩軸手臂逆向運動學（IK，解析解）**
   - 內容：處理 elbow-up / elbow-down 兩組解，以及目標超出工作範圍的情況。
   - 驗收：`fk(ik(p)) ≈ p`；超出範圍時回傳明確錯誤。
 - [ ] **P0-T4 四元數與尤拉角**
@@ -113,3 +113,4 @@ ROS 2 + Python 機器人開發基礎的學習任務，依執行順序排列。
 | 2026-10-08 | P1-T1 | 容器與 noVNC 可用，turtlesim 可用鍵盤控制；筆記見 `notes/p1-t1-environment-setup.md` |
 | 2026-10-08 | P0-T1 | 旋轉矩陣與 4x4 齊次轉換完成，pytest 19 個測試通過；筆記見 `notes/p0-t1-homogeneous-transforms.md` |
 | 2026-10-08 | P0-T2 | 兩軸平面手臂 FK 完成，pytest 30 個測試通過；筆記見 `notes/p0-t2-two-link-fk.md` |
+| 2026-10-11 | P0-T3 | 兩軸手臂 IK（解析解，elbow-up/down 兩組解）完成，pytest 40 個測試通過；筆記見 `notes/p0-t3-inverse-kinematics.md` |
