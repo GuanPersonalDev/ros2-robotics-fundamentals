@@ -29,7 +29,7 @@ ROS 2 + Python 機器人開發基礎的學習任務，依執行順序排列。
 - [x] **P0-T3 兩軸手臂逆向運動學（IK，解析解）**
   - 內容：處理 elbow-up / elbow-down 兩組解，以及目標超出工作範圍的情況。
   - 驗收：`fk(ik(p)) ≈ p`；超出範圍時回傳明確錯誤。
-- [ ] **P0-T4 四元數與尤拉角**
+- [x] **P0-T4 四元數與尤拉角**
   - 內容：實作四元數 ↔ 尤拉角互轉、四元數乘法，並寫一段說明萬向鎖的筆記。
   - 驗收：與 `scipy.spatial.transform.Rotation` 結果比對一致。
 - [ ] **P0-T5 視覺化**
@@ -114,3 +114,4 @@ ROS 2 + Python 機器人開發基礎的學習任務，依執行順序排列。
 | 2026-10-08 | P0-T1 | 旋轉矩陣與 4x4 齊次轉換完成，pytest 19 個測試通過；筆記見 `notes/p0-t1-homogeneous-transforms.md` |
 | 2026-10-08 | P0-T2 | 兩軸平面手臂 FK 完成，pytest 30 個測試通過；筆記見 `notes/p0-t2-two-link-fk.md` |
 | 2026-10-11 | P0-T3 | 兩軸手臂 IK（解析解，elbow-up/down 兩組解）完成，pytest 40 個測試通過；筆記見 `notes/p0-t3-inverse-kinematics.md` |
+| 2026-10-12 | P0-T4 | 四元數乘法、四元數 ↔ 尤拉角互轉（含萬向鎖處理）完成，與 scipy 比對一致，pytest 73 個測試通過；筆記見 `notes/p0-t4-quaternion-euler.md` |
